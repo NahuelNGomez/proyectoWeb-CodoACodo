@@ -28,8 +28,9 @@ body {
 }
 
 .indice{
-    background-color: #ffdddd;
     padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
 
 }
 .elementoIndice{
@@ -80,6 +81,7 @@ body {
 a{
     text-decoration:none;
     color:#5a5858;
+    padding: 5px;
 }
 
 .ultimosPublicados{
@@ -122,6 +124,13 @@ a{
 /*
 combios leonardo   
 */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffdddd;
+}
 .contImgl{
     margin-top: 10px;
     width: 200px;
@@ -136,6 +145,13 @@ combios leonardo
 .publicacion:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.indice li a:hover{
+    cursor: pointer;
+    background-color:rgba(245, 14, 31, 0.9);
+    border-radius: 15px;
+    color: white;
 }
 
 .titulo{
